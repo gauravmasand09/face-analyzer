@@ -44,6 +44,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
+          path: dist/face-analyzer/
+
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
