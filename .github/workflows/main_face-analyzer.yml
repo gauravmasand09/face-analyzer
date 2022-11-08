@@ -53,4 +53,4 @@ jobs:
           app-name: 'face-analyzer'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4A76566EEB254D98B5DB19C998412D4A }}
-          package: ./dist/face-analyzer
+          package: dist/face-analyzer
